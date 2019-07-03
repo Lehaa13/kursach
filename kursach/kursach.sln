@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kursach", "kursach\kursach.csproj", "{81F4FFC7-9F3A-4E2B-9180-2BD87544A798}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SetupTroechka", "SetupTroechka\SetupTroechka.vdproj", "{B7E70523-D2FA-439D-B731-FA2F49000294}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81F4FFC7-9F3A-4E2B-9180-2BD87544A798}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81F4FFC7-9F3A-4E2B-9180-2BD87544A798}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81F4FFC7-9F3A-4E2B-9180-2BD87544A798}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81F4FFC7-9F3A-4E2B-9180-2BD87544A798}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7E70523-D2FA-439D-B731-FA2F49000294}.Debug|Any CPU.ActiveCfg = Debug
+		{B7E70523-D2FA-439D-B731-FA2F49000294}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C91809C7-3D74-49C4-ADB7-FCDEFBD2BEDC}
+	EndGlobalSection
+EndGlobal

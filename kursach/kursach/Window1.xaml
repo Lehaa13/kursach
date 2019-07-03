@@ -1,0 +1,25 @@
+﻿<Window x:Class="kursach.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:kursach"
+        mc:Ignorable="d"
+        Title="Таблица" Height="509.808" Width="721.473"  Closing="Window_Closing">
+    <Window.Background>
+        <ImageBrush ImageSource="6saD4cWludk.jpg" Stretch="UniformToFill"/>
+    </Window.Background>
+    <Grid Margin="0,0,10,3">
+        <Button x:Name="add" Content="Добавить" HorizontalAlignment="Left" Margin="179,22,0,0" VerticalAlignment="Top" Width="96" Click="Add_Click" Height="39" Foreground="Black" Background="{x:Null}" FontSize="16"/>
+        <TextBox x:Name="name" HorizontalAlignment="Left" Height="39" Margin="10,22,0,0" TextWrapping="Wrap" Text="Имя" VerticalAlignment="Top" Width="145" TextChanged="name_TextChanged" Background="{x:Null}" Foreground="White" FontSize="20" SelectionBrush="{x:Null}" BorderBrush="{x:Null}"/>
+        <DataGrid x:Name="scoregrid" HorizontalAlignment="Left" Height="319" Margin="10,76,0,0" VerticalAlignment="Top" Width="150" BorderBrush="{x:Null}" Foreground="Black">
+            <DataGrid.Background>
+                <SolidColorBrush Color="#FFF0F0F0" Opacity="0.025"/>
+            </DataGrid.Background>
+        </DataGrid>
+        <Label Content="Победа!!!" HorizontalAlignment="Left" Margin="504,315,-38,0" VerticalAlignment="Top" Height="56" Width="237" FontSize="24" Foreground="White"/>
+        <Button Content="Начать заново" HorizontalAlignment="Left" Height="47" Margin="10,397,0,0" VerticalAlignment="Top" Width="159" Click="Button_Click" Background="{x:Null}" BorderBrush="{x:Null}" FontSize="20"/>
+        <Button Content="Выход" HorizontalAlignment="Left" Height="47" Margin="518,397,0,0" VerticalAlignment="Top" Width="136" Click="Button_Click_1" Background="{x:Null}" BorderBrush="{x:Null}" FontSize="20"/>
+
+    </Grid>
+</Window>
